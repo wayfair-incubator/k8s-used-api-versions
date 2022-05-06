@@ -21,9 +21,9 @@ The Operator can be run as a deployment in the cluster. See [deployment.yaml](co
 
 After deploying the operator, you just need to create the custom resource with the used API versions.
 
-  - Example of the custom resource: [UsedApiVersions](./config/samples/api-version_v1beta1_usedapiversions.yaml)
+- Example of the custom resource: [UsedApiVersions](./config/samples/api-version_v1beta1_usedapiversions.yaml)
 
-  - Example of the exported metrics:
+- Example of the exported metrics:
 
 ```sh
 wf_operator_used_api_versions{api_version="apps/v1beta2",deprecated="false",deprecated_in_version="n/a",kind="ReplicaSet",name="ingress-operator",removed="true",removed_in_next_2_releases="true",removed_in_next_release="true",removed_in_version="v1.16.0",replacement_api="apps/v1"} 1
