@@ -1,0 +1,16 @@
+domain: wayfair.com
+layout:
+- go.kubebuilder.io/v3
+projectName: k8s-used-api-versions
+repo: https://github.com/wayfair-incubator/k8s-used-api-versions
+resources:
+- api:
+    crdVersion: v1
+    namespaced: true
+  controller: true
+  domain: wayfair.com
+  group: api-version
+  kind: UsedApiVersions
+  path: https://github.com/wayfair-incubator/k8s-used-api-versions/api/v1beta1
+  version: v1beta1
+version: "3"

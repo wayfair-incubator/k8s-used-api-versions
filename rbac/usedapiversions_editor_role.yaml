@@ -1,0 +1,24 @@
+# permissions for end users to edit usedapiversions.
+apiVersion: rbac.authorization.k8s.io/v1
+kind: ClusterRole
+metadata:
+  name: usedapiversions-editor-role
+rules:
+- apiGroups:
+  - api-version.wayfair.com
+  resources:
+  - usedapiversions
+  verbs:
+  - create
+  - delete
+  - get
+  - list
+  - patch
+  - update
+  - watch
+- apiGroups:
+  - api-version.wayfair.com
+  resources:
+  - usedapiversions/status
+  verbs:
+  - get

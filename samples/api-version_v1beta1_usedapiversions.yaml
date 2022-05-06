@@ -1,0 +1,15 @@
+apiVersion: api-version.wayfair.com/v1beta1
+kind: UsedApiVersions
+metadata:
+  name: ingress-operator
+  namespace: ingress
+spec:
+  usedApiVersions:
+    - kind: Ingress
+      apiVersion: extensions/v1beta1
+    - kind: Deployment
+      apiVersion: extensions/v1beta1
+    - kind: NetworkPolicy
+      apiVersion: extensions/v1beta1
+    - kind: ReplicaSet
+      apiVersion: apps/v1beta2
