@@ -86,7 +86,7 @@ make run
 
 ## Roadmap
 
-See the [open issues](https://github.com/org_name/repo_name/issues) for a list of proposed features (and known issues).
+See the [open issues](https://github.com/wayfair-incubator/k8s-used-api-versions/issues) for a list of proposed features (and known issues).
 
 ## Contributing
 
@@ -94,13 +94,13 @@ Contributions are what make the open source community such an amazing place to l
 
 ## License
 
-Distributed under the `<License name>` License. See `LICENSE` for more information.
+Distributed under the `MIT` License. See `LICENSE` for more information.
 
 ## Contact
 
-Your Name - [@twitter_handle](https://twitter.com/twitter_handle) - email
+Ahmed ElBakry - [@ahmed43068401](https://twitter.com/ahmed43068401)
 
-Project Link: [https://github.com/org_name/repo_name](https://github.com/org_name/repo_name)
+Project Link: [https://github.com/wayfair-incubator/k8s-used-api-versions](https://github.com/wayfair-incubator/k8s-used-api-versions)
 
 ## Acknowledgements
 
