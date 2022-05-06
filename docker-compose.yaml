@@ -1,0 +1,14 @@
+#
+# docker-compose.yaml
+#
+# Docker compose.
+#
+# @authors k8s-used-api-versions Maintainers
+
+version: '3.4'
+services:
+  k8s-used-api-versions:
+    image: aelbakry/k8s-used-api-versions
+    build:
+      dockerfile: Dockerfile
+      context: .
